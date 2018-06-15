@@ -1,0 +1,84 @@
+<!--Corey Hicks
+    15 October 2017
+    Web Scripting
+    Assignment 2.2
+
+      This is an HTML stylesheet page that utilizes text/css to create paragraph and unordered list formatting for an XHTML document.
+    First, the text/css style type is called within the head of the HTML document. Second, paragraph 1 thru 3 are defined with margin,
+    background color, foreground color, and text indent properties. Third, the disc unordered list is defined with disc properties to
+    change the type of bullet generated in the document. Finally, each paragraph and unordered list class element is called to format
+    each paragraph and unordered list. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Style Sheet</title>
+  <meta charset="UTF-8">
+  <style type="text/css">
+    /*type attribute is set as text/css for paragraph and unordered list formatting*/
+
+    p.one {
+      margin-left: 20px;
+      margin-right: 20px;
+      background-color: rgb(214, 72, 72);
+      color: rgb(255, 255, 255);
+      text-indent: 30px;
+    }/*paragraph one class: left and right margin set to 20 pixels, bg color set to red, foreground color set to white, indent set to 30 pixels*/
+
+    p.two {
+      margin-left: 30px;
+      background-color: rgb(114, 136, 24);
+      color: rgb(54, 54, 32);
+      text-indent: 30px;
+    }/*paragraph two class: left margin set to 30 pixels, bg color set to light green, foreground color set to dark green, indent set to 30 pixels*/
+
+    p.three {
+      margin-left: 40px;
+      margin-right: 40px;
+      background-color: rgb(33, 115, 187);
+      color: rgb(0, 226, 214);
+      text-indent: 30px;
+    }/*paragraph three class: left and right margin set to 40 pixels, bg color set to blue, foreground color set to seafoam, indent set to 30 pixels*/
+
+    ul {
+      list-style-type: disc;
+    }/*defines the style for all unordered lists on this html page*/
+  </style>
+</head>
+
+<body>
+  <p><a href="Index.html">Home</a> <a href="AboutMe.html">About</a> <a href="StyleSheet.html">Nebraska</a> <a href="PayrollCalculator.html">Payroll</a> <a href="UserInfo.html">User Info</a></p>
+  <!--p tag denotes that what the element is a paragraph and will be displayed.
+  a tags define hyperlinks and href properties are used to assign an address to the hyperlink.
+  About, and Nebraska are the name of the hyperlinks displayed to the user-->
+  <h2>All About Nebraska</h2>
+  <p class="one">
+    <!--calls class one and sets the style to this paragraph only-->
+    I was born and raised in the simple state of Nebraska. It’s a simple farming state that is chock full of big-hearted people. It’s common for folks to hold the door open for you (even if you’re fifty feet away from the entrance). We wave to our neighbors
+    and know them by a first name basis. And, if you’re lucky, you’ll find yourself stuck behind a tractor in a city of almost 300,000.
+  </p>
+
+  <p class="two">
+    <!--calls class two and sets the style to this paragraph only-->
+    Nebraska prides itself as being a member of the Oregon trail. We have Chimney Rock, and the Platte River to name a couple landmarks off the top of my head. Just this year we had Bill Nye travel to Beatrice to witness the total solar eclipse at the Homestead
+    National Monument. There is a lot of heritage in this state and it’s great to be able to visit these great landmarks in just a few hours.
+  </p>
+
+  <p class="three">
+    <!--calls class three and sets the style to this paragraph only-->
+    If that isn’t enough, we have a fantastic selection of items straight from the farm. Nearly every city in Nebraska hosts a farmer’s market once a year. Usually, in the summer time, farmers from across the state will gather in the closest cities to sell
+    their farm-fresh goods. Anything from canned pickles, to bars of soap are sold at these events.
+  </p>
+
+  <h3>Popular Haunts of Nebraska</h3>
+  <ul>
+    <li>The Henry Doorly Zoo in Omaha</li>
+    <li>The Air and Space Museum in Ashland</li>
+    <li>Chimney Rock just outside Bayard</li>
+    <li>The Haymarket District in Lincoln</li>
+    <li>The Homestead National Monument in Beatrice</li>
+  </ul>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!--Corey Hicks
+    22 October 2017
+    Web Scripting
+    Assignment 3.2
+
+      This is an HTML file that utilizes a javascript within the page to perform calculations. First, the webpage prompts
+    the user to enter the number of hours worked by an employee using an HTML form tag. Second, using a script tag, the
+    webpage accesses the form and assigns it to variable x. Thrid, the script accesses the value of the name element within
+    script and assigns it to variable y. Fourth, a boolean is used to determine if the user entered value is greater than
+    or less than or equal to 40 hours. Finally, the script displays an alert window with the proper text information. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PayrollCalculator.html</title>
+</head>
+<body>
+  <p><a href="Index.html">Home</a> <a href="AboutMe.html">About</a> <a href="StyleSheet.html">Nebraska</a> <a href="PayrollCalculator.html">Payroll</a> <a href="UserInfo.html">User Info</a></p>
+
+  <form id="form1">
+    Enter the hours worked by the employee: <input name="name" type="number" size="20" /><br>
+  </form>
+  <!-- HTML form that allows for user input inside the webpage-->
+  <button onclick="outputname ()">Submit</button>
+
+  <script type = "text/javascript">
+    function outputname() {
+    var x=document.getElementById("form1");
+    //uses document.getElementById to set variable x equal to the entirety of form1
+    var y=x.elements["name"].value;
+    //sets variable y equal to the value of the name element within variable x
+
+    if (y > 40) { //boolean to determine if the value entered by the user is over 40 hours
+      var z = y - 40;
+      alert("Employee worked "+(y-z)+" hours of straight time and "+z+" hours of time and a half.", "Hours Worked");
+      //displays the user input as an alert window
+    } else {
+      alert("Employee worked "+y+" hours of straight time.", "Hours Worked");
+    }
+  }
+  </script>
+</body>
+</html>

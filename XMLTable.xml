@@ -1,0 +1,95 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<!--Corey Hicks
+    29 October 2017
+    Web Scripting
+    Assignment 4.2
+
+      This is an XML markup that consists of 12 students. Each Student element consists of 5 nested elements to further define the student.-->
+
+<Roll_Call>
+  <Student>
+    <StudentID>student807</StudentID>
+    <LastName>Catlett</LastName>
+    <FirstName>Herbert</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "herbert.catlett@firstdatacorp.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student814</StudentID>
+    <LastName>Conti</LastName>
+    <FirstName>Gilberto</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "gilberto.conti@firstdatacorp.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student808</StudentID>
+    <LastName>Flekke</LastName>
+    <FirstName>Curtis</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "cis-tap@flekke.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student809</StudentID>
+    <LastName>Golla</LastName>
+    <FirstName>Michael</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "michael.golla@firstdatacorp.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student815</StudentID>
+    <LastName>Grossoehme</LastName>
+    <FirstName>Keith</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "keithcbk@cox.net"</Email>
+  </Student>
+  <Student>
+    <StudentID>student817</StudentID>
+    <LastName>Guraedy</LastName>
+    <FirstName>Phillip</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "phillip@guraedy.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student813</StudentID>
+    <LastName>Haugen</LastName>
+    <FirstName>Melissa</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "melissa.haugen@firstdatacorp.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student826</StudentID>
+    <LastName>Kunz</LastName>
+    <FirstName>Matthew</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "cpu_rx@hotmail.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student811</StudentID>
+    <LastName>Skeen</LastName>
+    <FirstName>Angela</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "anne_skeen@yahoo.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student812</StudentID>
+    <LastName>Vanderloo</LastName>
+    <FirstName>Mark</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "mjvanderloo@yahoo.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student819</StudentID>
+    <LastName>Vanderveen</LastName>
+    <FirstName>Ronald</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "ron.vanderveen@firstdatacorp.com"</Email>
+  </Student>
+  <Student>
+    <StudentID>student818</StudentID>
+    <LastName>Vaughn</LastName>
+    <FirstName>Barry</FirstName>
+    <ClassNumber>55</ClassNumber>
+    <Email>xlink:href = "von7668@cox.net"</Email>
+  </Student>
+</Roll_Call>
